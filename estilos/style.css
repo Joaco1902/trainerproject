@@ -1,0 +1,274 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+
+html{
+
+    font-size: 62.5px;
+}
+
+body{
+
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+
+
+
+
+.tp{
+
+    font-size: 16px;
+    text-align: center;
+    color:rgb(43, 44, 41);
+    font-family: 'montserrat';
+    position: fixed;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    margin-left: 70%;
+    margin-top: 10px;
+    border-radius: 7px;
+    display: flex;
+}
+
+
+
+
+
+.rellenar{
+
+    color: rgb(0, 0, 0);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    border-radius: 7px;
+    display: flex;
+}
+
+
+h2{
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.7;
+    font-family: 'montserrat'
+
+}
+
+h3{
+    font-size: 1rem;
+    text-align: left;
+    line-height: 1.7;
+    font-family: 'montserrat'
+
+}
+
+.tabla{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    line-height: 1.7;
+    font-family: 'montserrat';
+    text-shadow: 2px 2px rgb(233, 233, 233);
+    margin-left: 3.5rem ;
+    border-radius: 7px;
+}
+
+
+
+.contactanos{
+
+    font-size: 30px;
+    text-align: center;
+    line-height: 1.7;
+    font-family: 'montserrat';
+    margin-top: 10px;
+}
+
+.redes{
+
+        font-size: medium;
+        text-align: left;
+        font-family: 'montserrat';
+
+    }
+
+.deportes{
+
+        background-image: url(https://st4.depositphotos.com/1012548/20602/i/450/depositphotos_206029140-stock-photo-blurred-gym-interior-with-equipment.jpg);
+        background-repeat: none;
+        background-size: cover;
+        margin: 10px;
+        margin-top: 3rem;
+        border-style: solid;
+        border-color: black;
+        padding: 20px;
+        border-radius: 7px;
+}
+
+h5{
+
+    font-size: 1rem;
+    text-align: left;
+    line-height: 1.7;
+    font-family: 'montserrat'
+
+}
+
+.quienes{
+        display: flex;
+
+
+}
+
+
+.quienes__somos{
+
+    color: rgb(0, 0, 0);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2px 2px rgb(248, 248, 248);
+    
+    background-image: url(https://www.ngenespanol.com/wp-content/uploads/2018/08/%C2%BFD%C3%B3nde-se-encuentran-las-monta%C3%B1as-m%C3%A1s-altas.jpg);
+    background-repeat: none;
+    background-size: cover;
+    margin: 25px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 7px;
+}
+
+#todosDeportes{  
+    color: rgb(0, 0, 0);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2px 2px rgb(224, 207, 207);
+   
+
+
+}
+
+
+.rellenar{
+   
+   
+    font-size: 22px;
+    background-color: rgb(145, 137, 137);
+    font-family: 'Fira Sans', sans-serif;
+    text-decoration: none;
+    margin: 12px;
+    margin-top: 60px;
+    border-style: solid;
+    border-radius: 7px;
+}
+
+
+.derechos{
+
+    background-color: grey;
+    font-size: small;
+    margin: 30px;
+    border-radius: 7px;
+    display: flex;
+}
+
+.menu{
+    
+    padding-left: 3px;
+    padding-right: 3rem; 
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 12px;
+   margin-top: 5px;
+   margin-left: 5px;
+   margin-right: 35px;
+     border-style: outset;
+    border-color: rgb(70, 65, 65);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    background-color: rgb(117, 108, 108);
+  position: sticky;
+  border-radius: 7px;
+    background-image: linear-gradient(grey, black);
+}
+
+
+.menu li{
+
+    overflow: hidden;
+    margin: 10px;
+    
+    border-style: solid;
+    border-color: rgb(236, 226, 226);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    background-color: rgb(156, 145, 145);
+    padding: 5px ;
+    color: rgb(255, 255, 255);
+    display:flex;
+    flex-direction: row;
+    border-radius: 7px;
+   justify-content: space-around;
+}   
+
+
+
+
+
+
+.logo{
+
+    margin-top: 2rem;
+    margin-bottom: 15px;    
+    margin-left: 434px;
+    margin-right: 15px;
+    border-style: outset;
+    border-color: black;
+    border-radius: 7px;
+}
+
+.redes{
+
+    border-style: solid;
+    border-color: black;
+    margin: 15px;
+    border-radius: 7px;
+}
+
+
+.h4{
+font-size: 1rem;
+text-align: left;
+line-height: 1.7;
+font-family: 'montserrat';  
+}
+
+#comentarios{
+
+    color: rgb(0, 0, 0);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2px 2px rgb(224, 207, 207);
+
+
+}
+
+#clientes{
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.7;
+    font-family: 'montserrat';
+
+
+
+}
